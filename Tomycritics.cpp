@@ -1,6 +1,6 @@
 #include <iostream>
 #include <stack>
-#include<chrono>
+
 using namespace std;
 
 stack<unsigned int> inp;
@@ -36,7 +36,7 @@ int main()
 {
     unsigned int a,b,c,t;
     cin>>t;
-    auto start = chrono::high_resolution_clock::now();
+
     for(unsigned int i=0;i<t;i++)
     {
        cin>>a>>b>>c;
@@ -64,11 +64,7 @@ int main()
        }
          
     }
-    auto end = chrono::high_resolution_clock::now();
-    chrono::duration<double> duration = end - start;
 
-    // Print elapsed time
-    cerr << "Elapsed time: " << duration.count() << " seconds" << endl;
      return(0);       
 }
 
