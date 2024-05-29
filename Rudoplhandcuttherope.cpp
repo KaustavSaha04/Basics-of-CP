@@ -11,7 +11,7 @@ int main(void)
       unsigned int c=0;
       unsigned int nails;
       cin>>nails;
-      int data[nails][2];
+      unsigned int data[nails][2];
       for(unsigned int j=0;j<nails;j++)
       {
          cin>>data[j][0];
