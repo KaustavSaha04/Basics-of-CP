@@ -1,3 +1,4 @@
+                            //Time taken: 0ms, within the limit of 1s.
 #include <iostream>
 #include <stack>
 
@@ -64,7 +65,10 @@ int main()
        }
          
     }
-
+    while(!inp.empty())  //empty the stack for new test case
+        {
+            inp.pop();
+        }
      return(0);       
 }
 
