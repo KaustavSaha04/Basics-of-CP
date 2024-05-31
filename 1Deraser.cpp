@@ -1,3 +1,4 @@
+                            //Time taken was 1ms, within the limit of 1s
 #include <iostream>
 
 using namespace std;
